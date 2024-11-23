@@ -1,0 +1,27 @@
+{
+  "name": "practicals-management-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cd api && node index.js",
+    "dev": "cd api && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ketank205/SmartSphere-Apply-What-You-Learn.git"
+  },
+  "author": "Ketankumar Panditrao Borse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ketank205/SmartSphere-Apply-What-You-Learn/issues"
+  },
+  "homepage": "https://github.com/Ketank205/SmartSphere-Apply-What-You-Learn#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1",
+    "nodemon": "^3.1.7"
+  }
+}
